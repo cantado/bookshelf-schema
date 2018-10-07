@@ -2,7 +2,7 @@
   "name": "bookshelf-schema",
   "version": "0.3.6",
   "description": "Plugin for adding schema to Bookshelf models",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "cake test",
     "prepublish": "cake build"
@@ -18,18 +18,18 @@
     "url": "https://github.com/bogus34/bookshelf-schema"
   },
   "devDependencies": {
-    "bookshelf": ">=0.8.2 <0.11",
-    "chai": "^3.3.0",
-    "chai-as-promised": "^6.0.0",
-    "chai-spies": "^0.7.1",
+    "bookshelf": "^0.13.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-spies": "^1.0.0",
     "co": "^4.6.0",
-    "coffee-coverage": "^2.0.0",
+    "coffee-coverage": "^3.0.0",
     "coffee-script": "^1.12.7",
     "istanbul": "^0.4.2",
-    "knex": ">=0.8.6 <0.13",
-    "mocha": "^3.5.3",
-    "pg": "^6.4.2",
-    "sqlite3": "^3.1.13"
+    "knex": "^0.15.2",
+    "mocha": "^5.2.0",
+    "pg": "^7.5.0",
+    "sqlite3": "^4.0.2"
   },
   "dependencies": {
     "checkit": "^0.7.0",

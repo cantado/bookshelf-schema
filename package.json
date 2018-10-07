@@ -4,8 +4,7 @@
   "description": "Plugin for adding schema to Bookshelf models",
   "main": "src/index.js",
   "scripts": {
-    "test": "cake test",
-    "prepublish": "cake build"
+    "test": "NODE_ENV=test mocha"
   },
   "keywords": [
     "bookshelf",
@@ -19,12 +18,11 @@
   },
   "devDependencies": {
     "bookshelf": "^0.13.3",
-    "chai": "^4.2.0",
+    "chai": "^3.5.0",
     "chai-as-promised": "^7.1.1",
-    "chai-spies": "^1.0.0",
+    "chai-spies": "^0.7.1",
     "co": "^4.6.0",
     "coffee-coverage": "^3.0.0",
-    "coffee-script": "^1.12.7",
     "istanbul": "^0.4.2",
     "knex": "^0.15.2",
     "mocha": "^5.2.0",

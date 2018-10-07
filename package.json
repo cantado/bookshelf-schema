@@ -2,7 +2,7 @@
   "name": "bookshelf-schema",
   "version": "0.3.6",
   "description": "Plugin for adding schema to Bookshelf models",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha"
   },

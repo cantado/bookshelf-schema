@@ -5,11 +5,11 @@ Bookshelf = require('bookshelf');
 
 CheckIt = require('checkit');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-Fields = require('../src/fields');
+Fields = require('../lib/fields');
 
 ({StringField, IntField, EmailField} = Fields);
 

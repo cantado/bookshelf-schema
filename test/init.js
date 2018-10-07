@@ -5,7 +5,7 @@ Knex = require('knex');
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 db = null;
 

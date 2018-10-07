@@ -3,13 +3,13 @@ var BelongsToMany, Bookshelf, Fields, HasMany, Relations, Schema, StringField, i
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../../src/');
+Schema = require('../../lib/');
 
 init = require('../init');
 
-Fields = require('../../src/fields');
+Fields = require('../../lib/fields');
 
-Relations = require('../../src/relations');
+Relations = require('../../lib/relations');
 
 ({StringField} = Fields);
 
@@ -137,7 +137,7 @@ describe("Relations", function() {
     });
     describe('onDestroy', function() {
       var values;
-      ({values} = require('../../src/utils'));
+      ({values} = require('../../lib/utils'));
       beforeEach(function() {
         Group = (function() {
           class Group extends db.Model {};

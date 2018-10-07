@@ -3,15 +3,15 @@ var BelongsToMany, Bookshelf, BooleanField, Schema, Scope, StringField, init;
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-({StringField, BooleanField} = require('../src/fields'));
+({StringField, BooleanField} = require('../lib/fields'));
 
-({BelongsToMany} = require('../src/relations'));
+({BelongsToMany} = require('../lib/relations'));
 
-Scope = require('../src/scopes');
+Scope = require('../lib/scopes');
 
 describe("Scopes", function() {
   var Group, User, db;

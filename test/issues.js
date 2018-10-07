@@ -3,13 +3,13 @@ var Bookshelf, Fields, HasMany, Relations, Schema, init;
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-Fields = require('../src/fields');
+Fields = require('../lib/fields');
 
-Relations = require('../src/relations');
+Relations = require('../lib/relations');
 
 ({HasMany} = Relations);
 

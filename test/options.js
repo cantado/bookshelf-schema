@@ -3,11 +3,11 @@ var Bookshelf, Options, Schema, init;
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-Options = require('../src/options');
+Options = require('../lib/options');
 
 describe('Options', function() {
   var db;

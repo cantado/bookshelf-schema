@@ -5,11 +5,11 @@ Bookshelf = require('bookshelf');
 
 CheckIt = require('checkit');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-F = require('../src/fields');
+F = require('../lib/fields');
 
 describe("Fields", function() {
   var db, define;

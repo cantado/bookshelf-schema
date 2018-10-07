@@ -3,11 +3,11 @@ var Bookshelf, Listen, Schema, init;
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 
-Listen = require('../src/listen');
+Listen = require('../lib/listen');
 
 describe('Listen', function() {
   var User, db;

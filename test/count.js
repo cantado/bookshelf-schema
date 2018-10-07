@@ -5,7 +5,7 @@ Bookshelf = require('bookshelf');
 
 CheckIt = require('checkit');
 
-Schema = require('../src/');
+Schema = require('../lib/');
 
 init = require('./init');
 

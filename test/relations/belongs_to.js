@@ -3,13 +3,13 @@ var BelongsTo, Bookshelf, EmailField, Fields, HasMany, IntField, Relations, Sche
 
 Bookshelf = require('bookshelf');
 
-Schema = require('../../src/');
+Schema = require('../../lib/');
 
 init = require('../init');
 
-Fields = require('../../src/fields');
+Fields = require('../../lib/fields');
 
-Relations = require('../../src/relations');
+Relations = require('../../lib/relations');
 
 ({StringField, IntField, EmailField} = Fields);
 
